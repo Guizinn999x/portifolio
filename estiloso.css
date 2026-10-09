@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: rgb(44, 5, 150);
     color: #f6f6f6;
     min-height: 100vh; /* Força o body a ter exatamente a altura da tela */
     display: flex;
@@ -49,6 +49,10 @@ body {
     color: #22D4FD; 
     text-decoration: none;
 }
+.menu-link:hover {
+
+    color: #6900b9 ;
+}
 
 /* Mudado o text-align para left para alinhar com o seu layout original */
 .apresentacao-titulo {
@@ -60,7 +64,7 @@ body {
 }
 
 .apresentacao-titulo:hover {
-    color: yellow;
+    color: #6900b9
 }
 
 .apresentacao-paragrafo {
@@ -106,7 +110,7 @@ body {
 }
 
 span {
-    color: yellow;
+    color: rgb(255, 255, 0);
 }
 
 .destaque {
@@ -115,7 +119,7 @@ span {
 
 footer {
     text-align: center;
-    background-color: #22D4FD;
+    background-color: #474542;
     color: black;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
